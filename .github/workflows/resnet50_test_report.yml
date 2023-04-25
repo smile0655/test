@@ -49,3 +49,5 @@ jobs:
         with:
           issue_title: ${{ env.issue_title }}
           issue_comment_body: ${{ env.issue_comment_body }}    
+permissions:
+  issues: 'write'
